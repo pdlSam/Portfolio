@@ -7,7 +7,7 @@ $(document).ready(function(){
         }
         if(this.scrollY > 500){
             $('.scroll-up-btn').addClass("show");
-        }else{
+        } else {
             $('.scroll-up-btn').removeClass("show");
         }
     });
@@ -58,3 +58,4 @@ var typed = new Typed(".typing-2", {
     }
   });
 });
+
